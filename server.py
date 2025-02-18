@@ -8,7 +8,7 @@ app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": "*"}})  # Allow frontend to access backend
 
 # Configure Google Gemini API (Replace with your actual API key)
-genai.configure(api_key="AIzaSyBCeYtOmcpHCv8SVG1uXznlJ7v44wUUyxs")
+genai.configure(api_key="api key need to give")
 
 def fetch_page_content(url):
     """Scrapes webpage content using Playwright."""
